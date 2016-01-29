@@ -14,7 +14,7 @@
 		E8C51F1D1C5B2E8A0025BC8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8C51F1C1C5B2E8A0025BC8C /* Assets.xcassets */; };
 		E8C51F201C5B2E8A0025BC8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8C51F1E1C5B2E8A0025BC8C /* LaunchScreen.storyboard */; };
 		E8C51F321C5B32E90025BC8C /* XHGTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8C51F311C5B32E90025BC8C /* XHGTableViewController.m */; };
-		E8C51F3A1C5B50C80025BC8C /* XHGDrawerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8C51F391C5B50C80025BC8C /* XHGDrawerViewController.m */; };
+		E8C51F3E1C5B513F0025BC8C /* XHGDrawerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8C51F3D1C5B513F0025BC8C /* XHGDrawerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,8 +30,8 @@
 		E8C51F211C5B2E8A0025BC8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8C51F301C5B32E90025BC8C /* XHGTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHGTableViewController.h; sourceTree = "<group>"; };
 		E8C51F311C5B32E90025BC8C /* XHGTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHGTableViewController.m; sourceTree = "<group>"; };
-		E8C51F381C5B50C80025BC8C /* XHGDrawerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHGDrawerViewController.h; sourceTree = "<group>"; };
-		E8C51F391C5B50C80025BC8C /* XHGDrawerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHGDrawerViewController.m; sourceTree = "<group>"; };
+		E8C51F3C1C5B513F0025BC8C /* XHGDrawerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHGDrawerViewController.h; sourceTree = "<group>"; };
+		E8C51F3D1C5B513F0025BC8C /* XHGDrawerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHGDrawerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +64,7 @@
 		E8C51F0F1C5B2E8A0025BC8C /* XHGDrawerDemo */ = {
 			isa = PBXGroup;
 			children = (
-				E8C51F371C5B50C80025BC8C /* XHGDrawerViewController */,
+				E8C51F3B1C5B513F0025BC8C /* XHGDrawerViewController */,
 				E8C51F131C5B2E8A0025BC8C /* AppDelegate.h */,
 				E8C51F141C5B2E8A0025BC8C /* AppDelegate.m */,
 				E8C51F161C5B2E8A0025BC8C /* ViewController.h */,
@@ -88,14 +88,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		E8C51F371C5B50C80025BC8C /* XHGDrawerViewController */ = {
+		E8C51F3B1C5B513F0025BC8C /* XHGDrawerViewController */ = {
 			isa = PBXGroup;
 			children = (
-				E8C51F381C5B50C80025BC8C /* XHGDrawerViewController.h */,
-				E8C51F391C5B50C80025BC8C /* XHGDrawerViewController.m */,
+				E8C51F3C1C5B513F0025BC8C /* XHGDrawerViewController.h */,
+				E8C51F3D1C5B513F0025BC8C /* XHGDrawerViewController.m */,
 			);
-			path = XHGDrawerViewController;
-			sourceTree = SOURCE_ROOT;
+			name = XHGDrawerViewController;
+			path = ../../XHGDrawerViewController;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -170,7 +171,7 @@
 			files = (
 				E8C51F181C5B2E8A0025BC8C /* ViewController.m in Sources */,
 				E8C51F151C5B2E8A0025BC8C /* AppDelegate.m in Sources */,
-				E8C51F3A1C5B50C80025BC8C /* XHGDrawerViewController.m in Sources */,
+				E8C51F3E1C5B513F0025BC8C /* XHGDrawerViewController.m in Sources */,
 				E8C51F121C5B2E8A0025BC8C /* main.m in Sources */,
 				E8C51F321C5B32E90025BC8C /* XHGTableViewController.m in Sources */,
 			);
